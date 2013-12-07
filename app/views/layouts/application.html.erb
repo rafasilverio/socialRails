@@ -8,7 +8,24 @@
 </head>
 <body>
 
-<%= yield %>
+<!-- menu -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">SocialRails</a>
+			<ul class="nav navbar-nav">
+				<li><%= link_to "All Statuses", statuses_path %></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<!-- menu -->
+
+<!-- content -->
+<div class="container">
+	<%= yield %>
+</div>
+<!-- content -->
 
 </body>
 </html>
