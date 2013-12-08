@@ -9,6 +9,12 @@ gem 'sqlite3'
 #Use to login
 gem 'devise'
 
+#form
+gem 'simple_form'
+
+#attr_acessible in rails 4
+gem 'protected_attributes'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
